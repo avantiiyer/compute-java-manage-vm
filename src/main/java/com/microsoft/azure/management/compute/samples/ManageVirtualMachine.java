@@ -59,10 +59,10 @@ public final class ManageVirtualMachine {
             // Authenticate
 
             //final File credFile = new File(System.getenv("AZURE_AUTH_LOCATION"));
-            String client = "1cdbce3a-22fc-4b49-a1fc-ef9c6cf17d78";
-            String tenant = "5e855a83-23b1-49b1-8282-17607c33ace9";
-            String key = "5Wo9/dLm0+vJY/TFhP4uekKzzwVlE1hou741vwe0SXQ=";
-            String subscriptionId = "18c7c872-8570-4b47-ac71-837740ac3115";
+            String client = "";
+            String tenant = "";
+            String key = "";
+            String subscriptionId = "";
             
             ApplicationTokenCredentials credentials = new ApplicationTokenCredentials(client, tenant, key, AzureEnvironment.AZURE);
             
