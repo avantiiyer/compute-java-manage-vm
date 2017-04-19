@@ -1,7 +1,7 @@
 ---
 services: Compute
 platforms: java
-author: selvasingh
+author: avantiks
 ---
 
 ## Running this Sample ##
